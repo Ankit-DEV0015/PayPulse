@@ -1,22 +1,8 @@
-# Typical Python & Node ignores
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-*.egg
-build/
-.dist/
-.env
+.venv/
 venv/
-.env*
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-# VSCode settings
-.vscode/
-# OS files
-.DS_Store
-Thumbs.db
-# Frontend build artifacts
-/frontend/dist/
-/frontend/node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+frontend/node_modules/
+frontend/dist/
