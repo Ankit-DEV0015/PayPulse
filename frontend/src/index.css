@@ -548,3 +548,35 @@ tbody tr:hover { background: #192741; }
   .shap-grid { grid-template-columns: 1fr; }
   .live-pill { display: none; }
 }
+/* PayPulse sidebar navigation */
+
+.sidebar .nav-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 9px;
+  color: #9aa9c6;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sidebar button.nav-link {
+  background: transparent;
+}
+
+.sidebar .nav-link:hover {
+  background: #1b2b4d;
+  color: white;
+}
+
+.sidebar .nav-link.active {
+  background: #1b2b4d;
+  color: white;
+  box-shadow: inset 3px 0 #6385ff;
+}
